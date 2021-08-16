@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Contact Midway USA</title>
+</head>
+<div class="mainHeading">
+    <h2>Midway USA</h2>
+</div>
+
+<body>
+    <div>
+        <div>
+            <div class="imgDiv">
+                <picture>
+                    <img class="splashImage" src="dogwithhunters.jpg" width="70%" alt="dog in a field with two hunters">
+                </picture>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainShell">
+        <div>
+            <div id="main">
+                <h1>How can we help you today?</h1>
+                <label for="contact">Reason For Contact</label>
+                <select id="contact" name="contact" required="required">
+                    <option value="blank" selected disabled></option>
+                    <option value="orderQuestion">Order Question</option>
+                    <option value="productSuggestion">Product Suggestion</option>
+                    <option value="websiteFeedback">Website Feedback</option>
+                    <option value="productSuggestion">Trouble Finding Product</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="productSuggestion" class="form-shell">
+            <div>
+                <h2>What product is missing?</h2>
+            </div>
+            <div>
+                <form id="productForm">
+                    <div class="form-input">
+                        <div class="form-row">
+                            <div>
+                                <label for="firstName"> First Name</label>
+                                <div>
+                                    <input type="text" id="firstName" name="firstName" required="required" />
+                                </div>
+                            </div>
+                            <div class="vl">
+                            </div>
+                            <div>
+                                <div>
+                                    <label for="lastName">Last Name</label>
+                                    <div>
+                                        <input type="text" id="lastName" name="lastName" required="required" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label for="email">Email</label>
+                        <div>
+                            <input type="email" id="email" name="email" placeholder="youremail@domain.com"
+                                pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required="required" />
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label for="feedback">What's missing?</label>
+                        <div>
+                            <textarea id="feedback" name="feedback" required="required" rows="6"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <button id="submitForm">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="orderQuestion" class="form-shell">
+            <div>
+                <h2>Question about your order?</h2>
+            </div>
+            <div>
+                <form id="orderForm">
+                    <div class="form-input">
+                        <div class="form-row">
+                            <div>
+                                <label for="firstName"> First Name</label>
+                                <div>
+                                    <input type="text" id="firstName" name="firstName" required="required" />
+                                </div>
+                            </div>
+                            <div class="vl">
+                            </div>
+                            <div>
+                                <div>
+                                    <label for="lastName">Last Name</label>
+                                    <div>
+                                        <input type="text" id="lastName" name="lastName" required="required" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label for="email">Email</label>
+                        <div>
+                            <input type="email" id="email" name="email" placeholder="youremail@domain.com"
+                                pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required="required" />
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label for="orderNumber">Order #</label>
+                        <div>
+                            <input type="test" id="orderNumber" name="orderNumber" placeholder="Your order number"
+                                required="required" />
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label for="feedback">Details about your order</label>
+                        <div>
+                            <textarea id="feedback" name="feedback" required="required" rows="6"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <button id="submitForm">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="websiteFeedback" class="form-shell">
+            <div>
+                <h2>How can we improve Midway USA?</h2>
+            </div>
+            <div>
+                <form id="websiteForm">
+                    <div class="form-input">
+                        <div class="form-row">
+                            <div>
+                                <label for="firstName"> First Name</label>
+                                <div>
+                                    <input type="text" id="firstName" name="firstName" required="required" />
+                                </div>
+                            </div>
+                            <div class="vl">
+                            </div>
+                            <div>
+                                <div>
+                                    <label for="lastName">Last Name</label>
+                                    <div>
+                                        <input type="text" id="lastName" name="lastName" required="required" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label for="email">Email</label>
+                        <div>
+                            <input type="email" id="email" name="email" placeholder="youremail@domain.com"
+                                pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required="required" />
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label for="feedback">Let's hear your thoughts.</label>
+                        <div>
+                            <textarea id="feedback" name="feedback" required="required" rows="6"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <button id="submitForm">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="form-shell" id="submissionComplete">
+            <div>
+                <h1>Thank you for your submission!</h1>
+                <p>Our team will get back to you shortly.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        const mainShell = document.getElementById("main");
+        const productShell = document.getElementById("productSuggestion");
+        const websiteShell = document.getElementById("websiteFeedback");
+        const orderShell = document.getElementById("orderQuestion");
+        const submissionShell = document.getElementById("submissionComplete");
+        const productForm = document.getElementById('productForm');
+        const orderForm = document.getElementById('orderForm');
+        const websiteForm = document.getElementById('websiteForm');
+
+        document.getElementById("contact").onchange = changeListenerSelector;
+
+        function changeListenerSelector() {
+            var value = this.value
+            console.log(value);
+
+            if (value == "productSuggestion") {
+                websiteShell.style.display = "none";
+                productShell.style.display = "block";
+                orderShell.style.display = "none";
+            }
+            if (value == "orderQuestion") {
+                websiteShell.style.display = "none";
+                productShell.style.display = "none";
+                orderShell.style.display = "block";
+            }
+            if (value == "websiteFeedback") {
+                websiteShell.style.display = "block";
+                productShell.style.display = "none";
+                orderShell.style.display = "none";
+            }
+        }
+
+        productForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+            productShell.style.display = "none";
+            mainShell.style.display = "none";
+            submissionShell.style.display = "block";
+
+        });
+
+        orderForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+            orderShell.style.display = "none";
+            mainShell.style.display = "none";
+            submissionShell.style.display = "block";
+
+        });
+
+        websiteForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+            websiteShell.style.display = "none";
+            mainShell.style.display = "none";
+            submissionShell.style.display = "block";
+
+        });
+    </script>
+</body>
+
+</html>

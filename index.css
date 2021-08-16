@@ -1,0 +1,123 @@
+  .form-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form-shell {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    display: none;
+    width: 100%;
+  }
+
+  .mainShell {
+    width: 460px, 100%;
+    background: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px 4px rgba(46, 49, 49, .2);
+    margin: 64px;
+    margin-left: 40px;
+    padding: 24px !important;
+    position:absolute;top:6%;
+  }
+
+  .vl {
+    border-left: 1px solid rgb(211,211,211);
+    margin-right: 10px;   
+  }
+
+  button {
+    background-color: #CD2026; 
+    border: none;
+    color: white;
+    text-align: center;
+    width: 180px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .splashImage {
+    margin-left: 18%;
+    border-radius: 8px;
+  }
+
+  input {
+    width: 95%;
+    border:none;
+    font-size: 20px;
+    margin: 2px;
+  }
+
+  textarea {
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    Font-family: "Roboto", sans-serif;
+    font-size: 12px;
+  }
+
+  label {
+    margin-left: 4px;
+  }
+
+  .form-input {
+    border: rgb(211,211,211);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 4px;
+    margin-top: 4px;
+  }
+
+  select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #CD2026;
+    color: #ffffff;
+    font-size: 14px;
+    box-shadow: 1px 1px 10px 4px rgba(46, 49, 49, .2);
+    margin: top 10px;    
+  }
+
+  .selectLabel {
+    margin-bottom: 5px;
+  }
+
+  .mainHeading {
+    margin-left:64px;
+    margin-bottom: 1px;
+    color: #CD2026;
+    font-family: "Roboto", sans-serif;
+  }
+
+  @media screen and (max-width: 500px) {
+    div.imgDiv {
+      display: none;
+    }
+    div.mainShell {
+      width:350px;
+      box-shadow: none;
+      margin: 0;
+    }
+    div.mainHeading {
+      margin-left:32px;
+      font-size: 14;
+    }
+
+    div.mainShell {
+      position:relative;
+    }
+  }
+  
+
+
